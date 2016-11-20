@@ -28,7 +28,6 @@ RUN meteor update --patch
 RUN meteor reset
 ENV PORT 80
 ENV MONGO_URL mongodb://database:27017/meteor
-ENV ROOT_URL http://127.0.0.1
 
 # WebUI Port & DB Port
 EXPOSE 80
